@@ -1,0 +1,11 @@
+Waiting for connection...
+Accept new connection from 127.0.0.1:34628...
+Connection from 127.0.0.1:34628 closed
+Accept new connection from 127.0.0.1:34632...
+Connection from 127.0.0.1:34632 closed
+Traceback (most recent call last):
+  File "server.py", line 22, in <module>
+    sock, addr = s.accept()
+  File "/usr/lib/python2.7/socket.py", line 206, in accept
+    sock, addr = self._sock.accept()
+KeyboardInterrupt
